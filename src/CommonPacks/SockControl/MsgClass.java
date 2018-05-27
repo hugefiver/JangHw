@@ -35,4 +35,9 @@ public class MsgClass extends MsgSuper{
     public synchronized void addMsg(String msg) {
         message.append(msg);
     }
+
+    @Override
+    public boolean isEmpty() {
+        return message.length() == 0;
+    }
 }

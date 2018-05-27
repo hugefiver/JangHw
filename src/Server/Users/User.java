@@ -16,6 +16,14 @@ public class User {
         this.group = group;
     }
 
+    public String getName() {
+        return info.name;
+    }
+
+    public Socket getsock () {
+        return info.sock;
+    }
+
     public void setSock(Socket sock) {
         this.info.sock = sock;
     }

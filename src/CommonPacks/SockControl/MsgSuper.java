@@ -11,4 +11,10 @@ public abstract class MsgSuper {
      * @param msg: String
      */
     public abstract void addMsg(String msg);
+
+    /**
+     * 判断是否为空
+     * @return is_empty: boolean
+     */
+    public abstract boolean isEmpty();
 }
